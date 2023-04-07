@@ -1,0 +1,2 @@
+picture.v,verilog,xil_defaultlib,../../../../Lab_4.gen/sources_1/ip/picture/sim/picture.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

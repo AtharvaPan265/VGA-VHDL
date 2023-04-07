@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Lab_4.srcs/sources_1/new/Clock_div.vhd" \
+"../../../../Lab_4.srcs/sources_1/new/Image_top.vhd" \
+"../../../../Lab_4.srcs/sources_1/new/pixel_pusher.vhd" \
+"../../../../Lab_4.srcs/sources_1/new/vga_ctrl.vhd" \
+"../../../../Lab_4.srcs/sim_1/new/image_top_tb.vhd" \
+
+# Do not sort compile order
+nosort
