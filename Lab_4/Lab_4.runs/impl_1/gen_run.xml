@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1680904145">
-  <File Type="ROUTE-PWR" Name="image_top_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="image_top.tcl"/>
-  <File Type="BITSTR-MMI" Name="image_top.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="image_top_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="image_top_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="image_top_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="image_top_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="image_top_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="image_top_opt.dcp"/>
-  <File Type="OPT-DRC" Name="image_top_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="image_top.hwdef"/>
-  <File Type="PWROPT-DCP" Name="image_top_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="image_top_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="image_top_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="image_top_placed.dcp"/>
-  <File Type="PLACE-IO" Name="image_top_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="image_top_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="image_top_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="image_top_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="image_top_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="image_top_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="image_top_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="image_top.bin"/>
-  <File Type="PLACE-TIMING" Name="image_top_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="image_top_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="image_top.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="image_top_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="image_top_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="image_top_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="image_top.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="image_top_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="image_top_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="image_top_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="image_top_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="image_top_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="image_top_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="image_top_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="image_top_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="image_top_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="image_top_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="image_top_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="image_top_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="image_top_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="image_top_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="image_top_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="image_top_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="image_top_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="image_top_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="image_top_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="image_top_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="image_top_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="image_top_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="image_top_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="image_top_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="image_top_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="image_top_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="image_top_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="image_top.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="image_top_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="image_top_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="image_top.nky"/>
-  <File Type="BITSTR-BMM" Name="image_top_bd.bmm"/>
-  <File Type="PDI-FILE" Name="image_top.pdi"/>
-  <File Type="RCFI_FILE" Name="image_top.rcfi"/>
-  <File Type="CFI_FILE" Name="image_top.cfi"/>
-  <File Type="RNPI_FILE" Name="image_top.rnpi"/>
-  <File Type="NPI_FILE" Name="image_top.npi"/>
-  <File Type="RBD_FILE" Name="image_top.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1680921343">
+  <File Type="ROUTE-PWR" Name="Clock_div_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Clock_div.tcl"/>
+  <File Type="BITSTR-MMI" Name="Clock_div.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Clock_div_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Clock_div_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Clock_div_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Clock_div_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="Clock_div_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Clock_div_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Clock_div_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Clock_div.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Clock_div_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Clock_div_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Clock_div_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Clock_div_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Clock_div_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Clock_div_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Clock_div_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Clock_div_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Clock_div_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Clock_div_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Clock_div_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Clock_div.bin"/>
+  <File Type="PLACE-TIMING" Name="Clock_div_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Clock_div_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Clock_div.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Clock_div_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Clock_div_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Clock_div_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Clock_div.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Clock_div_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Clock_div_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Clock_div_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Clock_div_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Clock_div_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Clock_div_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Clock_div_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Clock_div_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Clock_div_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Clock_div_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Clock_div_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Clock_div_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Clock_div_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Clock_div_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Clock_div_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Clock_div_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Clock_div_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Clock_div_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Clock_div_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Clock_div_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Clock_div_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Clock_div_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Clock_div_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Clock_div_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Clock_div_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Clock_div_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Clock_div_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Clock_div.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Clock_div_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Clock_div_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Clock_div.nky"/>
+  <File Type="BITSTR-BMM" Name="Clock_div_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Clock_div.pdi"/>
+  <File Type="RCFI_FILE" Name="Clock_div.rcfi"/>
+  <File Type="CFI_FILE" Name="Clock_div.cfi"/>
+  <File Type="RNPI_FILE" Name="Clock_div.rnpi"/>
+  <File Type="NPI_FILE" Name="Clock_div.npi"/>
+  <File Type="RBD_FILE" Name="Clock_div.rbd"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="image_top.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="image_top.sysdef"/>
-  <File Type="BG-BGN" Name="image_top.bgn"/>
-  <File Type="BG-DRC" Name="image_top.drc"/>
-  <File Type="RDI-RDI" Name="image_top.vdi"/>
+  <File Type="BITSTR-LTX" Name="Clock_div.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Clock_div.sysdef"/>
+  <File Type="BG-BGN" Name="Clock_div.bgn"/>
+  <File Type="BG-DRC" Name="Clock_div.drc"/>
+  <File Type="RDI-RDI" Name="Clock_div.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="image_top_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="image_top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Clock_div_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Clock_div_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
@@ -89,18 +89,21 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/pixel_pusher.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/vga_ctrl.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/Image_top.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -113,8 +116,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="image_top"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="Clock_div"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -157,5 +159,4 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="picture"/>
 </GenRun>
