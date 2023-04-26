@@ -24,12 +24,13 @@ begin
         if rising_edge(clk) then
             if (en = '1' and vid = '1' and unsigned(hcount) < 480) then
                 counter <= std_logic_vector(unsigned(counter) + 1);
-                if (vs = '0') then
-                    counter <= (others => '0');
-                end if;
                 R <= pixel(7 downto 5) & "00";
                 G <= pixel(4 downto 2) & "000";
                 B <= pixel(1 downto 0) & "000";
+
+            elsif (vs = '0') then
+                counter <= (others => '0');
+
             else
                 R <= (others => '0');
                 G <= (others => '0');

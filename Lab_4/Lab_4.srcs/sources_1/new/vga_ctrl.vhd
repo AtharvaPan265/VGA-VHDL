@@ -24,20 +24,24 @@ begin
             hcounter <= std_logic_vector(unsigned(hcounter) + 1);
             if (unsigned (hcounter) = 799 ) then
                 hcounter <= (others => '0');
-                bruh <= '1';
-                  -- vcounter <= std_logic_vector(unsigned(vcounter) + 1);
+               -- bruh <= '1';
+               if unsigned(vcounter) < 524 then
+                   vcounter <= std_logic_vector(unsigned(vcounter) + 1);
+               else
+                    vcounter <= (others => '0');
+               end if;
             end if;
         end if;
     end process;
-    process(hcounter)
+    process(hcounter, vcounter)
     begin
       --  if (rising_edge(clk) and en = '1') then
-            if (unsigned(hcounter) = 0 and bruh = '1') then
-                vcounter <= std_logic_vector(unsigned(vcounter) + 1);
-            end if;
-            if (unsigned(vcounter) = 524) then
-                vcounter <= (others => '0');
-            end if;
+            --if (unsigned(hcounter) = 0 and bruh = '1') then
+             --   vcounter <= std_logic_vector(unsigned(vcounter) + 1);
+            --end if;
+            --if (unsigned(vcounter) = 524) then
+            --    vcounter <= (others => '0');
+            --end if;
             if (unsigned(hcounter) < 640 and unsigned(vcounter) < 480) then
                 vid <= '1';
             else
